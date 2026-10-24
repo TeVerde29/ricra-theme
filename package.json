@@ -1,8 +1,9 @@
 {
   "name": "tea-green-theme",
-  "displayName": "Tea Green Theme",
+  "displayName": "Ricra Tea Green",
   "description": "Temas claro y oscuro en tonos crema, matcha y verde bosque para Visual Studio Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "icon": "images/ricra-tea-green.png",
   "publisher": "ricra",
   "license": "MIT",
   "repository": {
@@ -16,6 +17,7 @@
   "files": [
     "README.md",
     "LICENSE",
+    "images/**",
     "themes/**",
     "screenshots/**"
   ],

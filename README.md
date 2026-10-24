@@ -2,7 +2,7 @@
 
 Un tema de color para Visual Studio Code con variantes clara y oscura. Tea Green combina tonos crema, matcha y verde bosque para una experiencia tranquila y legible.
 
-![Version](https://img.shields.io/badge/version-1.0.0-AFC49A)
+![Version](https://img.shields.io/badge/version-1.0.1-AFC49A)
 ![Licencia MIT](https://img.shields.io/badge/licencia-MIT-4F7256)
 
 ## Temas
@@ -39,7 +39,7 @@ code --install-extension ricra.tea-green-theme
 Descarga el `.vsix` de la versión que quieras instalar y ejecuta:
 
 ```sh
-code --install-extension ricra.tea-green-theme-1.0.0.vsix
+code --install-extension ricra.tea-green-theme-1.0.1.vsix
 ```
 
 ## Activar un tema
