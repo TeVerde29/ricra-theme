@@ -45,7 +45,7 @@ Ambos archivos definen tres secciones: `colors` (interfaz de usuario: editor, si
 | Repositorio | https://github.com/TeVerde29/tea-green-theme.git |
 | Página del proyecto | https://github.com/TeVerde29/tea-green-theme#readme |
 | Reportar errores | https://github.com/TeVerde29/tea-green-theme/issues |
-| Paquete local | `ricra-theme-1.0.0.vsix` |
+| Paquete local | `ricra-theme-1.0.1.vsix` |
 
 ## Características principales
 
@@ -88,7 +88,7 @@ tea-green-theme/
 │   ├── ricra-night-owl.json     # Tema oscuro estilo Night Owl
 │   ├── ricra-ayu-mirage.json    # Tema claro estilo Ayu Mirage
 │   └── ricra-shades-of-purple.json # Tema oscuro estilo Shades of Purple
-└── ricra-theme-1.0.0.vsix       # Paquete empaquetado de la versión 1.0.0
+└── ricra-theme-1.0.1.vsix       # Paquete empaquetado de la versión 1.0.1
 ```
 
 - **Temas declarados en `package.json`:** `contributes.themes` apunta a los 10 archivos JSON con sus respectivos `uiTheme` (`vs` para claro, `vs-dark` para oscuro).
@@ -106,7 +106,7 @@ tea-green-theme/
 Descarga el `.vsix` de la versión que quieras instalar y ejecuta:
 
 ```sh
-code --install-extension ricra-theme-1.0.0.vsix
+code --install-extension ricra-theme-1.0.1.vsix
 ```
 
 ### Flujo básico de uso
@@ -160,7 +160,7 @@ Cada tema es un archivo JSON con esta estructura:
 
 ## Notas de publicación
 
-1. Incrementa `version` en `package.json` (actual: `1.0.0`).
+1. Incrementa `version` en `package.json` (actual: `1.0.1`).
 2. Ejecuta `npx @vscode/vsce login ricra` para autenticar el publicador.
 3. Ejecuta `npx @vscode/vsce publish` para subir al Marketplace.
 4. Para empaquetar localmente sin publicar: `npx @vscode/vsce package`.
