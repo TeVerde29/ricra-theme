@@ -178,9 +178,9 @@ Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo `LICEN
 
 ---
 
-**Pedro Giovanni Ricra Figueroa** — Estudiante de Ingeniería de Sistemas
+**Pedro Giovanni Ricra Figueroa** — Ingeniería de Sistemas
 
-GitHub: github.com/TeVerde29 | LinkedIn: linkedin.com/in/pedro-giovanni-ricra-figueroa-971a20433 | Email: pedro.ricra.figueroa@gmail.com
+[GitHub](https://github.com/TeVerde29) · [hikih020@gmail.com](mailto:hikih020@gmail.com)
 
 ---
 
