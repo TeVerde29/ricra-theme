@@ -1,6 +1,6 @@
 # Ricra Theme — Colección de temas de color para Visual Studio Code
 
-> Colección de temas de color para Visual Studio Code, con variantes clara, oscura y de alto contraste. Incluye estilos inspirados en Tea Green, Andromeda y otros temas populares.
+> Colección de temas de color para Visual Studio Code, con variantes clara, oscura y de alto contraste.
 
 ![Estado: activo](https://img.shields.io/badge/estado-activo-green)
 ![VS Code Theme](https://img.shields.io/badge/tema-VS%20Code-294635)
@@ -12,7 +12,7 @@
 |---|---|
 | ![Vista previa de Tea Green Light en Visual Studio Code](./screenshots/tea-green-light.png) | ![Vista previa de Tea Green Dark en Visual Studio Code](./screenshots/tea-green-dark.png) |
 
-Quien escribe código en Visual Studio Code elige entre Tea Green Light o Tea Green Dark para editar archivos de texto, configuración y código fuente.
+Quien escribe código en Visual Studio Code elige entre los temas de Ricra Theme para editar archivos de texto, configuración y código fuente.
 
 ## Tabla de contenidos
 
@@ -32,9 +32,9 @@ Quien escribe código en Visual Studio Code elige entre Tea Green Light o Tea Gr
 
 ## Descripción
 
-Tea Green Theme es una extensión de Visual Studio Code que provee dos variantes de color: una clara (`Tea Green Light`, `uiTheme: vs`) y una oscura (`Tea Green Dark`, `uiTheme: vs-dark`). Los archivos de tema viven en `themes/tea-green-light.json` y `themes/tea-green-dark.json`, respectivamente.
+Ricra Theme es una extensión de Visual Studio Code que provee diez variantes de color: dos originales (Tea Green Light y Tea Green Dark) y ocho nuevas (Ricra Andromeda, Ricra GitHub Dark, Ricra One Dark Pro, Ricra Dracula, Ricra Tokyo Night, Ricra Night Owl, Ricra Ayu Mirage y Ricra Shades of Purple). Los archivos de tema viven en la carpeta `themes/`.
 
-La idea de fondo es ofrecer una paleta inspirada en hojas de té verde, matcha, verde salvia y tonos crema, evitando verdes neón, fondos negros puros y excesos de glassmorphism. El tema claro usa fondo `#F7F8F1`, superficies `#FFFFFF` y `#EEF2E8`, texto principal `#1E2A21` y bordes `#D9E2D5`. El tema oscuro usa fondo `#111A13`, superficie `#19241B`, texto principal `#F1F5EB` y bordes `#334436`.
+La idea de fondo es ofrecer una paleta inspirada en hojas de té verde, matcha, verde salvia y tonos crema para los temas Tea Green, y replicar estilos reconocibles como Andromeda, GitHub Dark, One Dark Pro, Dracula, Tokyo Night, Night Owl, Ayu Mirage y Shades of Purple para los temas Ricra. Los temas evitan verdes neón, fondos negros puros y excesos de glassmorphism.
 
 Ambos archivos definen tres secciones: `colors` (interfaz de usuario: editor, sidebar, pestañas, terminal, botones, Git), `tokenColors` (sintaxis del editor mediante scopes de TextMate) y `semanticTokenColors` (tokens provistos por servidores de lenguaje LSP: clase, función, variable, parámetro, etc.). El resaltado semántico se activa cuando el servidor de lenguaje correspondiente lo proporciona.
 
@@ -45,11 +45,11 @@ Ambos archivos definen tres secciones: `colors` (interfaz de usuario: editor, si
 | Repositorio | https://github.com/TeVerde29/tea-green-theme.git |
 | Página del proyecto | https://github.com/TeVerde29/tea-green-theme#readme |
 | Reportar errores | https://github.com/TeVerde29/tea-green-theme/issues |
-| Paquete local | `tea-green-theme-1.0.2.vsix` |
+| Paquete local | `ricra-theme-1.0.0.vsix` |
 
 ## Características principales
 
-- **Dos variantes de tema:** `Tea Green Light` para entornos iluminados y `Tea Green Dark` para poca luz, declaradas en `package.json` bajo `contributes.themes`.
+- **Diez variantes de tema:** `Tea Green Light` y `Tea Green Dark` (claro y oscuro originales), más ocho temas Ricra declarados en `package.json` bajo `contributes.themes`.
 - **Colores de interfaz coherentes:** fondo, superficie, texto, bordes, foco y estados de éxito, advertencia, error e información comparten tokens entre variantes.
 - **Colores de sintaxis:** `tokenColors` asigna colores a comentarios, cadenas, números, palabras clave, funciones, clases, variables, propiedades, etiquetas y atributos mediante scopes de TextMate.
 - **Resaltado semántico:** `semanticTokenColors` cubre namespace, type, class, enum, interface, struct, typeParameter, parameter, variable, property, enumMember, event, function, method, macro, keyword, modifier, comment, string, number, regexp y operator.
@@ -79,11 +79,19 @@ tea-green-theme/
 │   └── tea-green-dark.png       # Vista previa del tema oscuro
 ├── themes/
 │   ├── tea-green-light.json     # Tema claro (uiTheme: vs)
-│   └── tea-green-dark.json      # Tema oscuro (uiTheme: vs-dark)
-└── tea-green-theme-1.0.2.vsix   # Paquete empaquetado de la versión 1.0.2
+│   ├── tea-green-dark.json      # Tema oscuro (uiTheme: vs-dark)
+│   ├── ricra-andromeda.json     # Tema oscuro estilo Andromeda
+│   ├── ricra-github-dark.json   # Tema oscuro estilo GitHub Dark
+│   ├── ricra-one-dark-pro.json  # Tema oscuro estilo One Dark Pro
+│   ├── ricra-dracula.json       # Tema oscuro estilo Dracula
+│   ├── ricra-tokyo-night.json   # Tema oscuro estilo Tokyo Night
+│   ├── ricra-night-owl.json     # Tema oscuro estilo Night Owl
+│   ├── ricra-ayu-mirage.json    # Tema claro estilo Ayu Mirage
+│   └── ricra-shades-of-purple.json # Tema oscuro estilo Shades of Purple
+└── ricra-theme-1.0.0.vsix       # Paquete empaquetado de la versión 1.0.0
 ```
 
-- **Temas declarados en `package.json`:** `contributes.themes` apunta a `themes/tea-green-light.json` (`uiTheme: "vs"`) y `themes/tea-green-dark.json` (`uiTheme: "vs-dark"`).
+- **Temas declarados en `package.json`:** `contributes.themes` apunta a los 10 archivos JSON con sus respectivos `uiTheme` (`vs` para claro, `vs-dark` para oscuro).
 - **Sin servidor propio:** es un tema de color estático; no hay backend, base de datos ni API.
 - **Instalado vs desarrollo:** en desarrollo se editan los JSON directamente; en instalado se distribuye el `.vsix` generado con `vsce package`.
 
@@ -91,28 +99,20 @@ tea-green-theme/
 
 1. Abre la paleta de comandos con `Ctrl+Shift+P` (`Cmd+Shift+P` en macOS).
 2. Ejecuta **Preferences: Color Theme**.
-3. Elige **Tea Green Light** o **Tea Green Dark**.
-
-### Desde el Marketplace
-
-Busca **Tea Green Theme** en la vista Extensions de VS Code, o instálalo desde terminal:
-
-```sh
-code --install-extension ricra.tea-green-theme
-```
+3. Elige cualquiera de los diez temas disponibles.
 
 ### Desde un archivo VSIX
 
 Descarga el `.vsix` de la versión que quieras instalar y ejecuta:
 
 ```sh
-code --install-extension ricra.tea-green-theme-1.0.2.vsix
+code --install-extension ricra-theme-1.0.0.vsix
 ```
 
 ### Flujo básico de uso
 
 1. Abre un archivo de código (por ejemplo `package.json` o un archivo de código fuente).
-2. Observa los colores aplicados: comentarios en verde, cadenas en matcha, palabras clave en verde bosque (claro) o matcha (oscuro), y variables según el tema activo.
+2. Observa los colores aplicados según el tema activo.
 3. Cambia de tema desde la paleta de comandos si necesitas pasar de modo claro a oscuro.
 
 ## Requisitos del sistema
@@ -128,21 +128,21 @@ Cada tema es un archivo JSON con esta estructura:
 
 ```json
 {
-  "name": "Tea Green Light",
-  "type": "light",
+  "name": "Ricra Andromeda",
+  "type": "dark",
   "colors": {
-    "editor.background": "#F7F8F1",
-    "editor.foreground": "#1E2A21"
+    "editor.background": "#23262E",
+    "editor.foreground": "#D5CED9"
   },
   "tokenColors": [
     {
       "scope": ["comment"],
-      "settings": { "foreground": "#294635", "fontStyle": "italic" }
+      "settings": { "foreground": "#A0A1A7CC", "fontStyle": "italic" }
     }
   ],
   "semanticTokenColors": {
-    "function": "#567B3B",
-    "string": "#4F7256"
+    "function": "#FFE66D",
+    "string": "#96E072"
   }
 }
 ```
@@ -153,14 +153,14 @@ Cada tema es un archivo JSON con esta estructura:
 
 ## Buenas prácticas de uso
 
-- Usa **Tea Green Light** en entornos con buena iluminación para reducir fatiga visual.
-- Usa **Tea Green Dark** en entornos con poca luz; su fondo `#111A13` no es negro puro, lo que evita halos alrededor del texto.
+- Usa los temas claros (Tea Green Light, Ricra Ayu Mirage) en entornos con buena iluminación para reducir fatiga visual.
+- Usa los temas oscuros en entornos con poca luz; sus fondos no son negros puros, lo que evita halos alrededor del texto.
 - No edites los JSON del tema instalado directamente; modifica los archivos fuente y vuelve a empaquetar con `npx @vscode/vsce package`.
 - El tema no controla tipografía; configura `editor.fontFamily` en los ajustes de VS Code con una fuente monoespaciada instalada en tu sistema si deseas personalizarla.
 
 ## Notas de publicación
 
-1. Incrementa `version` en `package.json` (actual: `1.0.2`).
+1. Incrementa `version` en `package.json` (actual: `1.0.0`).
 2. Ejecuta `npx @vscode/vsce login ricra` para autenticar el publicador.
 3. Ejecuta `npx @vscode/vsce publish` para subir al Marketplace.
 4. Para empaquetar localmente sin publicar: `npx @vscode/vsce package`.
