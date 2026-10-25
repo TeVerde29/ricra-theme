@@ -15,7 +15,7 @@
 
     "editor.background": "#111A13",
     "editor.foreground": "#F1F5EB",
-    "editorLineNumber.foreground": "#829B78",
+    "editorLineNumber.foreground": "#AFC49A",
     "editorLineNumber.activeForeground": "#C2D7A3",
     "editorCursor.foreground": "#C2D7A3",
     "editor.selectionBackground": "#334436",
@@ -26,7 +26,7 @@
     "editor.findMatchHighlightBackground": "#222F24",
     "editor.lineHighlightBackground": "#19241B",
     "editor.lineHighlightBorder": "#222F24",
-    "editorWhitespace.foreground": "#334436",
+    "editorWhitespace.foreground": "#4F7256",
     "editorIndentGuide.background": "#334436",
     "editorIndentGuide.activeBackground": "#829B78",
     "editorBracketMatch.background": "#334436",
@@ -140,7 +140,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#829B78",
+        "foreground": "#AFC49A",
         "fontStyle": "italic"
       }
     },
@@ -184,7 +184,7 @@
     {
       "scope": ["variable.other.property", "meta.object-literal.key"],
       "settings": {
-        "foreground": "#B5C0B2"
+        "foreground": "#C2D7A3"
       }
     },
     {
