@@ -154,8 +154,7 @@
     {
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#2D4F67",
-        "fontStyle": "bold"
+        "foreground": "#2D4F67"
       }
     },
     {
