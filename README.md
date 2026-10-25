@@ -1,6 +1,6 @@
-# Tea Green Theme — Tema de color claro y oscuro para Visual Studio Code
+# Ricra Theme — Colección de temas de color para Visual Studio Code
 
-> Tema de color para Visual Studio Code con variantes clara y oscura. Tea Green combina tonos crema, matcha y verde bosque para una experiencia tranquila y legible.
+> Colección de temas de color para Visual Studio Code, con variantes clara, oscura y de alto contraste. Incluye estilos inspirados en Tea Green, Andromeda y otros temas populares.
 
 ![Estado: activo](https://img.shields.io/badge/estado-activo-green)
 ![VS Code Theme](https://img.shields.io/badge/tema-VS%20Code-294635)

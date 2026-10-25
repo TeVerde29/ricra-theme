@@ -1,8 +1,8 @@
 {
-  "name": "tea-green-theme",
-  "displayName": "Ricra Tea Green",
-  "description": "Temas claro y oscuro en tonos crema, matcha y verde bosque para Visual Studio Code.",
-  "version": "1.0.2",
+  "name": "ricra-theme",
+  "displayName": "Ricra Theme",
+  "description": "Colección de temas de color para Visual Studio Code, con variantes clara, oscura y de alto contraste.",
+  "version": "1.0.0",
   "icon": "images/ricra-tea-green.png",
   "publisher": "ricra",
   "license": "MIT",
@@ -24,11 +24,21 @@
   "keywords": [
     "theme",
     "color-theme",
+    "ricra",
     "tea green",
     "matcha",
     "sage",
     "light theme",
-    "dark theme"
+    "dark theme",
+    "andromeda",
+    "high contrast",
+    "github",
+    "one dark",
+    "dracula",
+    "tokyo night",
+    "night owl",
+    "ayu",
+    "purple"
   ],
   "engines": {
     "vscode": "^1.70.0"
@@ -51,6 +61,46 @@
         "label": "Tea Green Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/tea-green-dark.json"
+      },
+      {
+        "label": "Ricra Andromeda",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-andromeda.json"
+      },
+      {
+        "label": "Ricra GitHub Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-github-dark.json"
+      },
+      {
+        "label": "Ricra One Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-one-dark-pro.json"
+      },
+      {
+        "label": "Ricra Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-dracula.json"
+      },
+      {
+        "label": "Ricra Tokyo Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-tokyo-night.json"
+      },
+      {
+        "label": "Ricra Night Owl",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-night-owl.json"
+      },
+      {
+        "label": "Ricra Ayu Mirage",
+        "uiTheme": "vs",
+        "path": "./themes/ricra-ayu-mirage.json"
+      },
+      {
+        "label": "Ricra Shades of Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ricra-shades-of-purple.json"
       }
     ]
   }
