@@ -6,13 +6,13 @@
   "icon": "images/ricra-tea-green.png",
   "publisher": "ricra",
   "license": "MIT",
+  "homepage": "https://github.com/TeVerde29/ricra-theme#readme",
+  "bugs": {
+    "url": "https://github.com/TeVerde29/ricra-theme/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TeVerde29/tea-green-theme.git"
-  },
-  "homepage": "https://github.com/TeVerde29/tea-green-theme#readme",
-  "bugs": {
-    "url": "https://github.com/TeVerde29/tea-green-theme/issues"
+    "url": "https://github.com/TeVerde29/ricra-theme.git"
   },
   "files": [
     "README.md",
