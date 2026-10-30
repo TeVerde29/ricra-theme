@@ -2,7 +2,7 @@
   "name": "ricra-theme",
   "displayName": "Ricra Theme",
   "description": "Colección de temas de color para Visual Studio Code, con variantes clara, oscura y de alto contraste.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon": "images/ricra-tea-green.png",
   "publisher": "ricra",
   "license": "MIT",
